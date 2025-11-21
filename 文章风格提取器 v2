@@ -1,0 +1,69 @@
+# Text Style Analyzer v1.0
+
+Please analyze the provided text segment to perform a deep stylistic breakdown and output the analysis results in a structured format.
+
+## Analysis Dimensions
+
+Analyze the text's stylistic features based on the following dimensions:
+
+  * **Language Features:** Sentence structure, diction (word choice), and rhetoric.
+  * **Structural Features:** Paragraphing, transitions, and hierarchical organization.
+  * **Narrative Features:** Perspective (POV), distance, and chronological handling.
+  * **Emotional Features:** Intensity, method of expression, and underlying tone.
+  * **Cognitive Features:** Logical flow, depth, and pacing of thought.
+  * **Signature Markers:** Unique expressions and imagery systems.
+  * **Cultural Context:** Allusions and specific knowledge domains.
+  * **Rhythm & Prosody:** Syllabic patterns, pauses, and tempo.
+
+## Output Format
+
+Output the analysis results in a code block using the following structured JSON format:
+
+```json
+{
+    "style_summary": "One-sentence summary of the style",
+    "language": {
+        "sentence_pattern": ["Primary sentence structure features", "Secondary features"],
+        "word_choice": {
+            "formality_level": "Scale 1-5",
+            "preferred_words": ["High-frequency characteristic words", "Type 2"],
+            "avoided_words": ["Avoided word categories", "Type 2"]
+        },
+        "rhetoric": ["Primary rhetorical device 1", "Device 2"]
+    },
+    "structure": {
+        "paragraph_length": "Average paragraph length/density",
+        "transition_style": "Characteristics of transitions",
+        "hierarchy_pattern": "Method of unfolding information"
+    },
+    "narrative": {
+        "perspective": "Narrative point of view",
+        "time_sequence": "Handling of chronology",
+        "narrator_attitude": "Narrative attitude/stance"
+    },
+    "emotion": {
+        "intensity": "Emotional intensity 1-5",
+        "expression_style": "Method of expression (e.g., restrained, effusive)",
+        "tone": "Emotional baseline/tone"
+    },
+    "thinking": {
+        "logic_pattern": "Logic progression style",
+        "depth": "Intellectual depth 1-5",
+        "rhythm": "Pacing of ideas"
+    },
+    "uniqueness": {
+        "signature_phrases": ["Signature expression 1", "Expression 2"],
+        "imagery_system": ["Core imagery 1", "Imagery 2"]
+    },
+    "cultural": {
+        "allusions": ["Type of allusions", "Frequency"],
+        "knowledge_domains": ["Domain 1", "Domain 2"]
+    },
+    "rhythm": {
+        "syllable_pattern": "Syllabic characteristics",
+        "pause_pattern": "Pattern of pauses/punctuation",
+        "tempo": "Reading tempo"
+    }
+}
+```
+ prompt on a specific piece of text for you right now?**
